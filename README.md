@@ -1,4 +1,19 @@
-# Basic Two-Tier AWS Architecture
+# Basic Two-Tier AWS Architecture 
+## Installs nginx, mongodb, nodejs, bower, gulp and mean-cli
+
+This is a fork from [Hashicorp's github repo](https://github.com/hashicorp/terraform/tree/master/examples/aws-two-tier).
+
+I've modified this to make a few small changes from the original.  
+
+1. I've made revisions to the AMI to Ubuntu 16.04 LTS
+2. The software nginx, mongodb, nodejs, bower, gulp and mean-cli will be installed with the ability for you to build your MEAN based site right away.  
+
+## TODO
+
+  * Have automatic provisioned reverse proxy for nginx/nodejs
+  * Rename everything to something that fits this repo
+  * Make variables clearer, abtract some of it into separate tf's to organize this better.
+  * Learn multiple provisioners.
 
 This provides a template for running a simple two-tier architecture on Amazon
 Web services. The premise is that you have stateless app servers running behind
