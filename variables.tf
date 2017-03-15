@@ -11,7 +11,7 @@ DESCRIPTION
 
 variable "key_name" {
   description = "Desired name of AWS key pair"
-  default     = "jaygordon-tf-key"
+  default     = "tf-key"
 }
 
 variable "aws_region" {
